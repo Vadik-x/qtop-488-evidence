@@ -23,3 +23,18 @@ changes (fork branches: 20260611-488-ci-realign-pvgis,
 Live CI evidence: https://github.com/Vadik-x/qtop/actions (35-lane nightly
 matrix, coverage, scorecard, pytest workflows running on the
 20260611-488-gitlab-linkage-pilot branch).
+
+## Live CI runs (fork: Vadik-x/qtop, branch 20260611-488-gitlab-linkage-pilot)
+
+| Workflow | Result | Run |
+|---|---|---|
+| pytest-qtop (project's own) | green | https://github.com/Vadik-x/qtop/actions/runs/27360321859 |
+| coverage-qtop | green | https://github.com/Vadik-x/qtop/actions/runs/27360318838 |
+| scorecard-qtop | green | https://github.com/Vadik-x/qtop/actions/runs/27360320428 |
+| nightly-matrix-qtop, run 1 | 22/35 green; surfaced 3 real findings | https://github.com/Vadik-x/qtop/actions/runs/27360317465 |
+| nightly-matrix-qtop, run 2 (post-fix) | 34+/35 green incl. all PyPy + 3.15-rc | https://github.com/Vadik-x/qtop/actions/runs/27360742733 |
+
+Run-1 findings (fixed in commit 271b381 on the branch): hardcoded
+/usr/bin/which in qtop scheduler autodetection breaks minimal images;
+pinned CI deps require Python >= 3.9 (importlib-metadata==8.7.1); openSUSE
+images lack tar for checkout's tarball fallback.

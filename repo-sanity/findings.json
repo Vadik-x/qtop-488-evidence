@@ -1,0 +1,30 @@
+[
+  {
+    "severity": "INFO",
+    "path": "helpfile.txt",
+    "line": 0,
+    "col": 0,
+    "message": "terminal-output fixture: 34 ANSI escapes, 0 carriage returns (expected)"
+  },
+  {
+    "severity": "INFO",
+    "path": "qtop_py/contrib/oar1_dvv_out.ref",
+    "line": 0,
+    "col": 0,
+    "message": "terminal-output fixture: 94990 ANSI escapes, 1 carriage returns (expected)"
+  },
+  {
+    "severity": "INFO",
+    "path": "qtop_py/contrib/pbs_dvv_out.ref",
+    "line": 0,
+    "col": 0,
+    "message": "terminal-output fixture: 57434 ANSI escapes, 1 carriage returns (expected)"
+  },
+  {
+    "severity": "INFO",
+    "path": "qtop_py/contrib/sger_dvv_out.ref",
+    "line": 0,
+    "col": 0,
+    "message": "terminal-output fixture: 1418 ANSI escapes, 1 carriage returns (expected)"
+  }
+]

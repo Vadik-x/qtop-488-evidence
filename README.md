@@ -1,2 +1,25 @@
-# qtop-488-evidence
-Evidence artifacts for qtop Challenge #9 (qtop/qtop#488): scanner findings, trust-audit proofs, coverage reports, py3.6 conformance evidence. Kept outside the main qtop repo per CONTRIBUTING.md.
+# qtop Challenge #9 evidence (qtop/qtop#488)
+
+Evidence artifacts for the focused-slice submission from @Vadik-x, kept
+outside the main qtop repo per CONTRIBUTING.md (artifact-light policy).
+All scans ran 2026-06-11 against qtop develop @ 0ebb451 plus the #488
+changes (fork branches: 20260611-488-ci-realign-pvgis,
+20260611-488-gitlab-linkage-pilot).
+
+| Directory | Contents |
+|---|---|
+| repo-sanity/ | Full-tree text-trust audit (report + JSON) and the planted-payload selftest proof: 0 critical, 0 warning on the real tree |
+| bandit/ | Bandit SAST: 54 findings (51 low, 3 medium) |
+| semgrep/ | Semgrep p/python + p/security-audit: 4 ERROR findings |
+| secrets/ | gitleaks (clean) and detect-secrets (3 false positives) |
+| deps/ | pip-audit on pinned CI deps: pip 24.0 (5 advisories), pytest 8.2.2 (1) |
+| license/ | pip-licenses report of the pinned CI dependency set |
+| code-quality/ | ruff GitLab Code Quality JSON (clean tree) |
+| coverage/ | Cobertura XML, 45% baseline (139 tests) |
+| metrics/ | radon complexity/maintainability and vulture dead-code reports |
+| scorecard/ | OpenSSF Scorecard public-API snapshot: score 7.1 (2026-06-08) |
+| py36/ | Python 3.6.15 conformance: transcript (10/10 sample gates), qtop SGE render SVG, composite evidence page |
+
+Live CI evidence: https://github.com/Vadik-x/qtop/actions (35-lane nightly
+matrix, coverage, scorecard, pytest workflows running on the
+20260611-488-gitlab-linkage-pilot branch).

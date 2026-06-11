@@ -1,0 +1,24 @@
+repo-sanity text-trust audit
+root: /agent/workspace/qtop-dev
+files scanned: 5
+
+CRITICAL planted_bidi.py:1:15  bidirectional control character U+202E RIGHT-TO-LEFT OVERRIDE (Trojan Source)
+    >access = "user\u202e" # privileged \u202d"
+                   ^
+CRITICAL planted_bidi.py:1:31  bidirectional control character U+202D LEFT-TO-RIGHT OVERRIDE (Trojan Source)
+    >access = "user\u202e" # privileged \u202d"
+                                   ^
+CRITICAL planted_control.py:1:12  control character U+0008 UNNAMED
+    >header = 'x\x08x'
+                ^
+WARNING  planted_homoglyph.py:1:2  homoglyph-prone character U+0430 CYRILLIC SMALL LETTER A
+    >p\u0430ssword_check = None  # Cyrillic small a
+      ^
+CRITICAL planted_separator.py:1:12  unicode line separator U+2028 LINE SEPARATOR
+    >safe = True\u2028unsafe = True
+                ^
+CRITICAL planted_zwsp.py:1:7  invisible character U+200B ZERO WIDTH SPACE
+    >def is\u200badmin():
+           ^
+
+summary: 5 critical, 1 warning, 0 info

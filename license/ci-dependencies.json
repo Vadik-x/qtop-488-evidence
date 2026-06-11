@@ -1,0 +1,122 @@
+[
+  {
+    "License": "MIT License",
+    "Name": "build",
+    "Version": "1.2.1"
+  },
+  {
+    "License": "MIT License",
+    "Name": "build",
+    "Version": "1.2.1"
+  },
+  {
+    "License": "Apache Software License",
+    "Name": "coverage",
+    "Version": "7.6.1"
+  },
+  {
+    "License": "Apache Software License",
+    "Name": "coverage",
+    "Version": "7.6.1"
+  },
+  {
+    "License": "MIT License",
+    "Name": "exceptiongroup",
+    "Version": "1.3.1"
+  },
+  {
+    "License": "MIT License",
+    "Name": "exceptiongroup",
+    "Version": "1.3.1"
+  },
+  {
+    "License": "UNKNOWN",
+    "Name": "importlib_metadata",
+    "Version": "8.7.1"
+  },
+  {
+    "License": "UNKNOWN",
+    "Name": "importlib_metadata",
+    "Version": "8.7.1"
+  },
+  {
+    "License": "MIT License",
+    "Name": "iniconfig",
+    "Version": "2.1.0"
+  },
+  {
+    "License": "MIT License",
+    "Name": "iniconfig",
+    "Version": "2.1.0"
+  },
+  {
+    "License": "Apache Software License; BSD License",
+    "Name": "packaging",
+    "Version": "24.2"
+  },
+  {
+    "License": "Apache Software License; BSD License",
+    "Name": "packaging",
+    "Version": "24.2"
+  },
+  {
+    "License": "MIT License",
+    "Name": "pluggy",
+    "Version": "1.6.0"
+  },
+  {
+    "License": "MIT License",
+    "Name": "pluggy",
+    "Version": "1.6.0"
+  },
+  {
+    "License": "MIT License",
+    "Name": "pyproject_hooks",
+    "Version": "1.1.0"
+  },
+  {
+    "License": "MIT License",
+    "Name": "pyproject_hooks",
+    "Version": "1.1.0"
+  },
+  {
+    "License": "MIT License",
+    "Name": "pytest",
+    "Version": "8.2.2"
+  },
+  {
+    "License": "MIT License",
+    "Name": "pytest",
+    "Version": "8.2.2"
+  },
+  {
+    "License": "UNKNOWN",
+    "Name": "ruff",
+    "Version": "0.15.15"
+  },
+  {
+    "License": "UNKNOWN",
+    "Name": "ruff",
+    "Version": "0.15.15"
+  },
+  {
+    "License": "UNKNOWN",
+    "Name": "typing_extensions",
+    "Version": "4.15.0"
+  },
+  {
+    "License": "UNKNOWN",
+    "Name": "typing_extensions",
+    "Version": "4.15.0"
+  },
+  {
+    "License": "UNKNOWN",
+    "Name": "zipp",
+    "Version": "3.23.1"
+  },
+  {
+    "License": "UNKNOWN",
+    "Name": "zipp",
+    "Version": "3.23.1"
+  }
+]

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1078" height="648" viewBox="0 0 1078 648">
+<rect width="100%" height="100%" fill="#111111"/>
+<g font-family="Menlo, Consolas, monospace" font-size="13" fill="#f2f2f2">
+<text x="14" y="28"></text>
+<text x="14" y="45"></text>
+<text x="14" y="62">./qtop.py     ## Queueing System report tool. Press ? for help</text>
+<text x="14" y="79">v0.9.20260610 ## For feedback and updates, see: https://github.com/qtop/qtop</text>
+<text x="14" y="96">Please try it with watch: /agent/workspace/qtop-dev/qtop.py -s &lt;SOURCEDIR&gt; -w [&lt;every_nr_of_sec&gt;]</text>
+<text x="14" y="113">===&gt; Job accounting summary &lt;=== 2026-06-11 20:45:46</text>
+<text x="14" y="130">Summary: Total:17 Up:17 Free:4 Nodes | 61/408 cores |   61+31 jobs (R + Q)</text>
+<text x="14" y="147">Queues : alice: 59 | whole: 2 | cta: 0 | ctaprod: 0 | drihm: 0 | dteam.cg: 0 | gisela.cg: 0 | ibchem.cg: 0 | ibearth.cg: 0 | ibeng.c</text>
+<text x="14" y="164"></text>
+<text x="14" y="181">===&gt; Worker Nodes occupancy &lt;=== (wnid_lines/core_map/Node state/queue name)</text>
+<text x="14" y="198">da-p4-04|000000000001____________|r  |a |</text>
+<text x="14" y="215">da-p5-01|000000000000____________|E  |a |</text>
+<text x="14" y="232">da-p5-02|000000000000____________|dr |a |</text>
+<text x="14" y="249">da-p5-03|000000000000____________|R  |a |</text>
+<text x="14" y="266">da-p5-04|000000000000____________|hqw|a |</text>
+<text x="14" y="283">da-p6-01|________________________|au |  |</text>
+<text x="14" y="300">da-p6-02|________________________|-  |  |</text>
+<text x="14" y="317">da-p6-03|________________________|au |  |</text>
+<text x="14" y="334">da-p6-04|________________________|-  |  |</text>
+<text x="14" y="351">da-p7-01|________________________|au |  |</text>
+<text x="14" y="368">da-p7-02|________________________|E  |  |</text>
+<text x="14" y="385">da-p7-03|________________________|-  |  |</text>
+<text x="14" y="402">da-p7-04|________________________|-  |  |</text>
+<text x="14" y="419">da-p8-01|________________________|E  |  |</text>
+<text x="14" y="436">da-p8-02|________________________|E  |  |</text>
+<text x="14" y="453">da-p8-03|2_______________________|au |cw|</text>
+<text x="14" y="470">da-p8-04|________________________|E  |  |</text>
+<text x="14" y="487"></text>
+<text x="14" y="504"></text>
+<text x="14" y="521">===&gt; User accounts and pool mappings &lt;=== (sorting according to total nr. of jobs)</text>
+<text x="14" y="538">[id] unix account      |jobs &gt;=   R +    Q | nodes |       GECOS field or Grid certificate DN |</text>
+<text x="14" y="555">[ 0] alicesgm          |  90     60     30 |     5 |                                          |</text>
+<text x="14" y="572">[ 1] sotiris           |   2      1      1 |     1 |                                          |</text>
+<text x="14" y="589">[ 2] biomed017         |   1      1      0 |     1 |                                          |</text>
+<text x="14" y="606"></text>
+<text x="14" y="623">Log file created in /agent/workspace/qtop-dev/artifacts/sample-gate-py36/sge-contrib/home/.local/qtop/logs/qtop.log</text>
+</g>
+</svg>

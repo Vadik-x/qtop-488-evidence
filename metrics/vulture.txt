@@ -1,0 +1,7 @@
+qtop_py/fileutils.py:72: unused variable 'sample_method' (100% confidence)
+qtop_py/qtop.py:886: unused variable 'ffunc' (100% confidence)
+qtop_py/qtop.py:1066: unused variable 'user_list' (100% confidence)
+qtop_py/qtop.py:1755: unused variable 'options1' (100% confidence)
+qtop_py/qtop.py:1755: unused variable 'options2' (100% confidence)
+qtop_py/qtop.py:1875: unused variable 'coloring_pattern' (100% confidence)
+qtop_py/utils.py:196: unused variable 'opt_str' (100% confidence)

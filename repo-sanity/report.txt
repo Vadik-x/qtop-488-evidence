@@ -1,0 +1,10 @@
+repo-sanity text-trust audit
+root: /agent/workspace/qtop-dev
+files scanned: 90
+
+INFO     helpfile.txt:0:1  terminal-output fixture: 34 ANSI escapes, 0 carriage returns (expected)
+INFO     qtop_py/contrib/oar1_dvv_out.ref:0:1  terminal-output fixture: 94990 ANSI escapes, 1 carriage returns (expected)
+INFO     qtop_py/contrib/pbs_dvv_out.ref:0:1  terminal-output fixture: 57434 ANSI escapes, 1 carriage returns (expected)
+INFO     qtop_py/contrib/sger_dvv_out.ref:0:1  terminal-output fixture: 1418 ANSI escapes, 1 carriage returns (expected)
+
+summary: 0 critical, 0 warning, 4 info

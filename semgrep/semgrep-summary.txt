@@ -1,0 +1,6 @@
+semgrep p/python + p/security-audit
+findings: 4
+[ERROR] qtop_py/plugins/sge.py:19 python.lang.security.use-defused-xml.use-defused-xml
+[ERROR] qtop_py/plugins/sge.py:31 python.lang.security.use-defused-xml-parse.use-defused-xml-parse
+[ERROR] qtop_py/qtop.py:836 python.lang.security.use-defused-xml.use-defused-xml
+[ERROR] qtop_py/qtop.py:2521 python.lang.security.audit.dangerous-subprocess-use-tainted-env-args.dangerous-subprocess-use-tainted-env-args
